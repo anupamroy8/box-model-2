@@ -1,0 +1,109 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Styling starts here */
+
+
+.box1{
+	display: inline-block;
+	height: 200px;
+	width: 300px;
+	background-color: lightsteelblue;
+	padding: 20px;
+	border: 10px dashed black;
+	margin: 20px;
+	border-radius: 16px;
+}
+
+.box2 {
+	display: inline-block;
+	height: 220px;
+	width: 330px;
+	background-color: lightgreen;
+	padding: 20px;
+	border: 16px double rgb(110, 10, 10);
+	margin: 20px;	
+	border-radius: 24px;
+}
+
+.box3 {
+	display: inline-block;
+	height: 250px;
+	width: 350px;
+	background-color: gold;
+	padding: 30px;
+	border: 24px dotted red;
+	margin: 30px;	
+	border-radius: 32px;
+}
+
+.box4 {
+	display: inline-block;
+	height: 230px;
+	width: 330px;
+	background-color: lightsalmon;
+	padding: 30px;
+	border: 15px solid magenta;
+	margin: 24px;	
+	border-radius: 12px;
+}
+
+.box5 {
+	display: inline-block;
+	height: 230px;
+	width: 330px;
+	background-color: lightsalmon;
+	padding: 30px;
+	border-top: 15px solid green;
+	border-right: 15px solid yellow;
+	border-bottom: 15px solid red;
+	border-left: 15px solid purple;
+	margin: 24px;	
+	border-radius: 12px;
+}
