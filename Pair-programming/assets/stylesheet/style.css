@@ -1,0 +1,238 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/****** General *****/
+body {
+  line-height: 1.5;
+  font-family: "Poppins", sans-serif;
+  color: #ffffff;
+}
+/* Container */
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+/* Padding */
+.padding {
+  padding: 40px 0;
+}
+
+/* Heading */
+.heading {
+  font-size: 24px;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin-bottom: 16px;
+}
+
+/* Header */
+.header {
+  background-color: #2D3040;
+  padding: 20px 0;
+  text-align: center;
+  color: #ffffff;
+}
+.logo {
+  display: inline-block;
+  color: #ffffff;
+  display: inline-block;
+  text-decoration: none;
+  font-size: 32px;
+}
+.nav-links {
+  display: block;
+  text-align: center;
+}
+.nav-links a {
+  text-decoration: none;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-size: 18px;
+  margin-left: 28px;
+}
+.image {
+  width: 250px;
+  height: 250px;
+  border-radius: 250px;
+}
+
+.line{
+  border-bottom: 1px solid #ffffff;
+  margin: 20px 0;
+  width: auto;
+}
+
+/********* Hero ************/
+.hero {
+  background-color: #2D3040;
+  padding: 100px 0;
+}
+.hero-heading {
+  font-size: 36px;
+  font-weight: 600;
+  width: 660px;
+}
+.hero-text {
+  width: 660px;
+  margin: 16px 0;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
+/* Secondary */
+
+.secondary{
+ background-color: #4C5C96;
+}
+
+/* Tertiary */
+
+.tertiary{
+background-color: #44558D;
+}
+/* Quaternary */
+
+.quaternary{
+  background-color: #3F4E85;
+  }
+
+
+.learnmore {
+  display: inline-block;
+  text-decoration: none;
+  color: #ffffff;
+  padding-top: 10px;
+}
+
+/* Footer */
+.footer {
+  background-color: #2D3040;
+}
